@@ -1,0 +1,47 @@
+<!--
+ * @Author: yangxiaosen
+ * @Data: Do not edit
+ * @LastEditors: Do not edit
+ * @LastEditTime: 2023-03-28 22:47:10
+ * @filePath: Do not edit
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <script src="../../util/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="logincontainer">
+        <h2 style="text-align: center;">“云购“商城-后台管理系统</h2>
+        <form id="loginform">
+            <!-- 用户名输入框 -->
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">用户名：</label>
+                <input type="text" class="form-control" id="username" aria-describedby="emailHelp" required>
+            </div>
+            <!-- 密码输入框 -->
+            <div class="mb-3">
+                <label for="password" class="form-label">密码：</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">记住用户名和密码</label>
+            </div>
+            <button type="submit" class="btn btn-primary">登陆</button>
+            <div id="login_warning" class="form-text" style="display:none; color: red;">用户名密码不匹配</div>
+        </form>
+    </div>
+    <script src="./index.js" type="module">
+    </script>
+</body>
+
+</html>

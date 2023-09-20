@@ -1,0 +1,35 @@
+html, body, .main {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .top_bar {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.box {
+  flex: 1;
+  margin-top: 50px;
+}
+
+.box .content {
+  padding: 20px;
+}
+
+.box .content .maincontent {
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#newsLookModalContent img {
+  width: 80%;
+}

@@ -1,0 +1,7 @@
+// easy sass 解析器对"../style.scss"找不到，需要用下面方式
+@import "..\\..\\style.scss";
+#newsLookModalContent{
+    img{
+        width: 80%;
+    }
+}
